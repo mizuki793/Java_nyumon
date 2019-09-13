@@ -2,6 +2,7 @@ public class Hero{
 	private String name ="ミナト";
 	private int hp = 100;
 
+
 public String  getName(){	
 	return this.name;
 }
@@ -17,5 +18,6 @@ public final void slip(){
 }
 public void run(){
 	System.out.println(this.getName()+"は逃げ出した");
+	
 }
 }
